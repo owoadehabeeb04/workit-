@@ -1,0 +1,494 @@
+@import url('https://fonts.cdnfonts.com/css/fraunces-144pt-s000');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background:  #24053E;
+    padding-bottom: 0rem;
+  
+
+}
+.spring1 {
+    position: absolute;
+    left: 91%;
+    top: 40%;
+    transform: rotate(360deg);
+}
+section .spring {
+    
+    position: absolute;
+    left: -3%;
+    top: 10%;
+    
+    transform: rotate(90deg);
+    
+    }
+.workit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    padding: 1rem 10rem;
+    color: white;
+    font-weight: 400;
+}
+.workit a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid #44ffA1;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Manrope';
+}
+.workit a:hover {
+    color: #44ffA1;
+}
+.workit h1 {
+    font-size: 1.5rem;
+    font-family: 'Manrope';
+    font-weight: 400;
+}
+.center {
+    padding: 1rem;
+}
+.sub-headers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.sub-headers span {
+    border-bottom: 3px solid #44ffA1;
+}
+.sub-headers button {
+    background-color: #44ffA1;
+    color: #24053E;
+    border: 1px solid #44ffA1;
+    padding: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.sub-headers button:hover {
+    background-color: #24053E;
+    color: #44ffA1;
+}
+.sub-headers h1 {
+    font-size: 4rem;
+}
+
+.sub-headers h1 {
+    font-family: 'Fraunces 144pt';
+ margin: 0rem 10rem;
+    padding: 1rem;
+    text-align: center;
+}
+section img {
+    position: absolute;
+    left: 50%;
+    top: 75%;
+   transform: translate(-50%, -50%);
+}
+
+
+/* offers */
+.offers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 8rem 16rem;
+
+}
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 1rem;
+}
+.no {
+    color: #584d62;
+    background-color: white;
+    border: 2px solid #584d62;
+    padding: 1rem;
+    padding-right: 1.5rem;
+    border-radius: 50%;
+    width: 1rem;
+    font-weight: 100;
+    
+    font-family: 'Fraunces 144pt';
+}
+
+
+.paragraph h1 {
+    font-family: 'Fraunces 144pt';
+    font-size: 2rem;
+    color: #584d62;
+    text-align: center;
+}
+.paragraph p {
+    font-family: 'Manrope';
+    font-size: 1rem;
+    color: #584d62;
+    text-align: center;
+}
+
+
+/* footer */
+
+
+.paragraph1 h1 {
+font-family: 'Fraunces 144pt';
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 64px;
+/* identical to box height, or 114% */
+color: #FFFFFF;
+}
+.paragraph1 p {
+    
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+
+color: #FFFFFF;
+}
+.Bethefirst {
+    background-color: #24053E;
+    padding: 2rem;
+    width: 44%;
+    position: absolute;
+left: 38%;
+    top: 170%;
+
+    
+}
+.Bethefirst img {
+    position: absolute;
+    left: 74%;
+    top: 60%;
+    transform: rotate(105deg);
+}
+.paragraph1 button {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+    background-color: #44ffA1;
+    border: 2px solid #44ffA1;
+    padding: 1rem;
+    text-align: center;
+    letter-spacing: -0.18px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+.paragraph1 button:hover {
+    background-color: #24053E;
+    color: #44ffA1;
+}
+
+footer {
+margin: 0rem 13rem;
+}
+
+/* socials */
+.socials h1 {
+    color: #24053E;
+    font-family: 'Manrope';
+    font-weight: 10;
+    font-size: 3rem;
+}
+.socials h1 strong {
+    font-weight: 10000;
+}
+.socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+}
+.facebook {
+    margin: 0.5rem;
+}
+.twitter {
+    margin: 0.5rem;
+    margin-top: 0.7rem;
+}
+.instagram {
+    margin: 0.5rem;
+}
+
+.socials p {
+    font-family: 'Manrope';
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+.socials p a {
+    text-decoration: #24053E;
+color: #24053E;
+}
+.facebook a path:hover {
+fill: #24053E;
+}
+.twitter a path:hover {
+fill: #24053E;
+}
+.instagram a path:hover {
+fill: #24053E;
+}
+.copywright {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+/* tablet */
+.section .phone {
+    width: 100%;
+}
+@media only screen and (max-width: 1300px) {
+    .offers {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 8rem 4rem;
+    margin-top: 16rem;
+    }
+    .Bethefirst {
+        background-color: #24053E;
+        padding: 2rem;
+        width: 44%;
+        position: absolute;
+    left: 40%;
+        top: 190%;       
+    }
+    footer {
+        margin: 0rem 6rem;
+        display: flex;
+    }
+    .socials {
+        margin-top: 9rem;
+    }
+    .paragraph1 p {
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+color: #FFFFFF;
+}
+}
+
+@media only screen and (max-width: 1100px) {
+    footer {
+        margin: 0rem 3rem;
+        display: flex;
+    }
+    .Bethefirst {
+        background-color: #24053E;
+        padding: 2rem;
+        width: 60%;
+        position: absolute;
+    left: 30%;
+        top: 190%;       
+    }
+    .offers {
+        margin-bottom: 2rem;
+    }
+    .socials {
+        margin-top: 20rem;
+    }
+    .workit {
+        padding: 1rem 2rem;
+    }
+    .sub-headers h1 {
+        margin: 0rem;
+    }
+} 
+@media only screen and (max-width: 1100px) {
+    .offers {
+        margin-left: 1rem;
+        margin-right: 1rem;
+  
+}
+section img {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+   transform: translate(-50%, -50%);
+}
+.Bethefirst {
+    background-color: #24053E;
+    padding: 2rem;
+    width: 60%;
+    position: absolute;
+left: 30%;
+    top: 94%;       
+}
+.socials {
+    margin-top: 10rem;
+}
+}
+@media only screen and (max-width: 900px) {
+    section img {
+        position: absolute;
+        top: 50%;
+    }}
+@media only screen and (max-width:900px) {
+    .sub-headers h1 {
+        font-size: 2rem;
+    }
+  .offers {
+  
+    display: flex;
+    flex-wrap: wrap;
+}
+.one {
+    display: flex;
+    flex-direction: row; /* mobile column*/
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 1rem;
+}
+.paragraph p {
+    text-align: left;
+}
+.paragraph h1 {
+    text-align: left;
+}
+.paragraph {
+    padding: 1rem;
+    padding-left: 2rem;
+}
+section .phone {
+    width: 100%;
+}
+
+.Bethefirst {
+    background-color: #24053E;
+    padding: 2rem;
+    width: 60%;
+    position: relative;    
+    left: 0;
+}
+footer {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section img {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+   transform: translate(-50%, -50%);
+}
+.person img {
+    width: 100%;
+}
+.spring1 {
+    display: none;
+}
+} 
+@media only screen and (max-width: 650px) {
+    .footspring {
+        display: none;
+    }
+    .paragraph1 {
+    text-align: center;
+    width: 100%;
+    }
+    section img {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+   transform: translate(-50%, -50%);
+}
+
+} 
+
+@media only screen and (max-width: 500px) {
+    section img {
+        position: absolute;
+        top: 55%;
+    }
+    .sub-headers h1 {
+        font-size: 2rem;
+    }
+    .sub-headers button {
+        margin-top: 0.5rem;
+    }
+    .Bethefirst {
+        width: 100%;
+    }
+    .one {
+        display: flex;
+        flex-direction: column; /* mobile column*/
+        justify-content: center;
+        align-items: center;
+        padding-inline-start: 1rem;
+    }
+    .paragraph h1 {
+        text-align: center;
+    }
+    .paragraph p {
+        text-align: center;
+    }
+    footer {
+        margin-top: 0rem;
+    }
+    .socials{
+        margin-top: 2rem;
+    }
+    .workit {
+        padding: 1rem;
+    }
+    .workit h1 {
+    font-size: 1rem;
+    }
+    .workit a {
+        font-size: 1rem;
+        }
+ .one {
+    padding: 0rem;
+ } 
+ 
+ .footspring {
+    display: none;
+}
+.spring1 {
+position: absolute;
+left: 70%;
+top: 25%;
+transform: rotate(360deg);
+display: block;
+width: 20%;
+}
+.spring {
+    width: 20%;
+}
+}
+
+@media only screen and (max-width: 350px) {
+    section img {
+        position: absolute;
+        top: 70%;
+    }
+}
